@@ -11,8 +11,11 @@ A Quantum Circuit is a model for quantum computation, in which a computation is 
 
 ## **Key Results:**
 •	Demonstrated Qiskit Pulse, low level pulse-programming paradigm implemented as a module within Qiskit Terra, which gives precise control over working at real quantum hardware level, the ability to calibrate and execute pulse, and read-out level instructions.
+
 •	Calibrate and create gates with high fidelity, while started by calibrating the qubit frequency of qubit 0 at IBMQ Armonk backend, accurately by frequency sweep method, which implemented in preparing pulse schedule for our custom gate.
+
 •	Perform calibration of single qubit Hadamard Gate by defining and varying the pulse parameters, in different cloud-based IBM backends to higher fidelity.
+
 •	Create a single qubit custom gate ‘C’ and 2-qubit custom bellgate ‘BG’, and display the results from IBMQ Armonk and IBMQ Belem respectively
 
 
